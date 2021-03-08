@@ -193,7 +193,7 @@ function vonline_scripts() {
 		wp_enqueue_style( 'vonline-preview-google-fonts-headings', 'https://fonts.googleapis.com/', array(), null );
 	}
 
-	wp_enqueue_style( 'vonline-style', get_stylesheet_uri(), '', '20210120' );
+	wp_enqueue_style( 'vonline-style', get_stylesheet_uri());
 
 	wp_enqueue_style( 'vonline-ie9', get_template_directory_uri() . '/css/ie9.css', array( 'vonline-style' ) );
 	wp_style_add_data( 'vonline-ie9', 'conditional', 'lte IE 9' );
