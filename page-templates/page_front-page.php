@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: VO Landing Page
+ * Template Name: VO-Landing-Page
  *
  * This is the template that displays all of the <head> section and everything up until main.
  *
