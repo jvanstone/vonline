@@ -1,0 +1,126 @@
+:root {
+    --font-color: #fff;
+  }
+  
+  html, body {
+      height: 100%;
+      overflow: none;
+  }
+  
+  body {
+      background-image: url('https://vanstoneonline.com/wp-content/themes/vanstoneonline/images/background.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-origin: border-box;
+      background-size: cover;
+      background-attachment: fixed;
+      color: var(--font-color);
+     
+  
+  }
+  
+  a, a:visited { color: var(--font-color); }
+  
+  .container-fluid {
+      background-color: rgba(1, 2, 34, 0.6); 
+      min-height: 100%;
+        
+  }
+  header {
+      height: 120px;
+  }
+  
+  main h1 { 
+      color: white!important;
+  }
+  
+  
+  footer {
+      background: #141537;
+      width: 100%;
+      height: auto;
+  }
+  
+  footer img {
+      max-width: 166px;
+  }
+  .feature > p {
+      font-size: .75rem!important;
+  }
+  
+  .btn-orange { 
+      background-color: #A55A01;
+      color: var(--font-color);
+    
+  }
+  
+  .card {
+      flex-basis: 100%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      max-width: 100%;
+  }
+  
+  
+  //Custom NavBar beyond Bootstrap
+  .navbar-light .navbar-nav .nav-link {
+      color: whitesmoke;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+      color: whitesmoke;
+  }
+  
+  .navbar-light .navbar-toggler-icon{
+      background-image: url('../images/vo-logo.png')!important;
+      background-size: contain;
+      width: 40px;
+  }   
+  
+  #homeMenu {
+      background-color: #1415379b;
+      justify-content: flex-end;
+  }
+  
+  #homeMenu a, #homeMenu a:visited  { 
+      margin: 4rem;
+      font-size: 2rem!important;
+  }
+  
+  
+   // larger devices
+  @media (min-width: 576px) {  
+  
+      .container-xxl {
+          height: 100%;
+      }
+  
+      header {
+          height: 180px;
+      }
+      #homeMenu {
+          margin-right: 4rem;
+          background-color: transparent;
+          justify-content: flex-end;
+      }
+   
+      main {
+          margin-top: 2rem!important;
+          margin-bottom: 10rem!important;
+      }
+      .icons {
+          margin-top: 5rem;
+          margin-bottom: 5rem;
+  
+      }
+  
+      .icon {
+          width: 200px;
+          height: auto;
+      }
+  
+  
+      .footer {
+          margin-top: 5rem;
+      }
+  }
+  
