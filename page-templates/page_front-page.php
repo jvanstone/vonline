@@ -36,18 +36,20 @@
                         <nav class="navbar navbar-expand-lg navbar-light " role="navigation"> 
                             <div class="navbar-header">
                             <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a></h1>
-                            <a href="#" class="navbar-brand"><img class="logo" src="./images/Vanstone Online.svg" alt="Vanstone Online" /></a>
+               
                             </div>
                             <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#homeMenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                                 </button>
                             <div class="collapse navbar-collapse" id="homeMenu">
-                                <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-                                <a href="#" class="nav-item nav-link active" aria-current="page">Home</a>
-                                <a href="#" class="nav-item nav-link">About</a>
-                                <a href="#" class="nav-item nav-link">Docs</a>
-                                <button type="button" class="btn btn-orange m-1" href="#">Login</button>
-                            </div>
+                            <?php wp_nav_menu( array( 
+                                                'theme_location' => 'landing-page', 
+                                                'menu_class' => 'navbar-nav',
+                                                'add_li_class' => 'nav-item',
+                                                'container' => false ) 
+                                                ); ?>
+<!--                                 <button type="button" class="btn btn-orange m-1" href="#">Login</button>
+ -->                            </div>
                         </nav>
                     </div>
                 </header>
@@ -56,7 +58,7 @@
                     <div class="row icons mt-10 mb-10">
                         <div class="col-md-3 m-3 icon">
                             <div class="row">
-                                <img src="./images/figma.svg" alt="Figma" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/figma.svg" alt="Figma" />
                                 <div class="icon--info">
                                     <p class="col icon-top">Figma</p>
                                     <p class="col icon-bottom">DRAW</p>
@@ -65,7 +67,7 @@
                         </div> <!--enc col icon -->
                         <div class="col-md-3 m-3 icon">
                             <div class="row">
-                                <img src="./images/BootStrap.svg" alt="Bootstrap" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/BootStrap.svg" alt="Bootstrap" />
                                 <div class="icon--info">
                                     <p class="col icon-top">Bootstrap</p>
                                     <p class="col icon-bottom">SCSS</p>
@@ -74,7 +76,7 @@
                         </div>  <!--enc col icon -->
                         <div class="col-md-3 m-3 icon">
                             <div class="row">
-                                <img src="./images/WordPress.svg" class="img-fluid" alt="WordPress" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/WordPress.svg" class="img-fluid" alt="WordPress" />
                                 <div class="icon--info">
                                     <p class="col icon-top">WordPress</p>
                                     <p class="col icon-bottom">CMS</p>
@@ -85,13 +87,13 @@
                 </main>
                 <footer class="mt-10 p-3 row">
                     <div class="col-sm media m-md-4 feature my-auto">
-                        <img src="./images/theme.jpg" alt="Custom Themes" class="m-1 rounded" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/theme.jpg" alt="Custom Themes" class="m-1 rounded" />
                         <div class="media-body m-1 feature--info">
                             <p>Custom Themes</p>
                         </div>
                     </div>
                     <div class="col-sm media m-md-4 feature my-auto">
-                        <img src="./images/plugin.jpg" alt="Custom Themes" class="m-1 rounded" />
+                        <img src="<?php  echo get_template_directory_uri(); ?>/images/plugin.jpg" alt="Custom Themes" class="m-1 rounded" />
                         <div class="media-body m-1 feature--info ">
                             <p>Custom Plugins</p>
                         </div>
