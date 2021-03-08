@@ -1938,7 +1938,7 @@ function vonline_customize_register( $wp_customize ) {
     $wp_customize->add_setting(
         'body_text_color',
         array(
-            'default'           => '#47425d',
+            'default'           => '#ffffff',
             'sanitize_callback' => 'sanitize_hex_color',
             'transport'         => 'postMessage'
         )

@@ -185,7 +185,7 @@ function vonline_custom_styles($custom) {
 	$slider_text = get_theme_mod( 'slider_text', '#ffffff' );
 	$custom .= ".text-slider .maintitle, .text-slider .subtitle { color:" . esc_attr($slider_text) . "}"."\n";
 	//Body
-	$body_text = get_theme_mod( 'body_text_color', '#47425d' );
+	$body_text = get_theme_mod( 'body_text_color', '#fffff' );
 	$custom .= "body { color:" . esc_attr($body_text) . "}"."\n";
 	//Sidebar background
 	$sidebar_background = get_theme_mod( 'sidebar_background', '#ffffff' );
