@@ -52,10 +52,13 @@ function vonline_setup() {
 	add_image_size('vonline-service-thumb', 350);
 	add_image_size('vonline-mas-thumb', 480);
 
-	// This theme uses wp_nav_menu() in one location.
+	// This theme uses primary for the majority of site. But hasd a special landing page menu.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'vonline' ),
+		'landing-page' => __( 'Landing Page', 'vonline' ),
 	) );
+
+
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -550,3 +553,4 @@ require get_template_directory() . '/theme-dashboard/class-theme-dashboard.php';
  * Theme dashboard settings.
  */
 require get_template_directory() . '/inc/theme-dashboard-settings.php';
+
