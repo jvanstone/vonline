@@ -242,6 +242,7 @@ add_action('after_switch_theme', 'vonline_disable_elementor_globals');
  * Enqueue Bootstrap
  */
 function vonline_enqueue_bootstrap() {
+	wp_enqueue_style( 'local-bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), true );
 	wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' );
 	wp_enqueue_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',null, null, false );	
 	wp_enqueue_script( 'Popper' , 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js', array(), null, true);
