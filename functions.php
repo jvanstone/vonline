@@ -242,9 +242,16 @@ add_action('after_switch_theme', 'vonline_disable_elementor_globals');
  * Enqueue Bootstrap
  */
 function vonline_enqueue_bootstrap() {
-	wp_enqueue_style( 'vonline-bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), true );
+	wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' );
+	wp_enqueue_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',null, null, false );	
+	wp_enqueue_script( 'Popper' , 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js', array(), null, true);
+	wp_enqueue_script( 'Javascript' , 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', array(), null, true);
+	wp_enqueue_style( 'Iconify', 'https://code.iconify.design/1/1.0.6/iconify.min.js', array(), true);
+
 }
 add_action( 'wp_enqueue_scripts', 'vonline_enqueue_bootstrap', 9 );
+
+      
 
 /**
  * Elementor editor scripts

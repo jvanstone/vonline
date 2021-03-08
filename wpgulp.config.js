@@ -41,7 +41,7 @@ const jsVendorDestination = './assets/js/';
 
 // Compiled JS vendors file name. Default set to vendors i.e. vendors.js.
 const jsVendorFile = 'vendor';
-
+	
 // JS Custom options.
 
 // Path to JS custom scripts folder.
@@ -65,7 +65,7 @@ const imgDST = './images/';
 
 // >>>>> Watch files paths.
 // Path to all *.scss files inside css folder and inside them.
-const watchStyles = './assets/css/**/*.scss';
+const watchStyles = './assets/sass/**/*.scss';
 
 // Path to all vendor JS files.
 const watchJsVendor = './assets/js/vendor/*.js';
@@ -122,13 +122,13 @@ const translationDestination = './languages';
 const packageName = 'WPGULP';
 
 // Where can users report bugs.
-const bugReport = 'https://AhmadAwais.com/contact/';
+const bugReport = 'https://vanstoneonline.com';
 
 // Last translator Email ID.
-const lastTranslator = 'Ahmad Awais <your_email@email.com>';
+const lastTranslator = '';
 
 // Team's Email ID.
-const team = 'AhmadAwais <your_email@email.com>';
+const team = 'Jason Vanstone <jason@vanstoneonline.com>';
 
 // Browsers you care about for auto-prefixing. Browserlist https://github.com/ai/browserslist
 // The following list is set as per WordPress requirements. Though; Feel free to change.
