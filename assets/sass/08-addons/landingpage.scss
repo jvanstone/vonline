@@ -1,27 +1,7 @@
-:root {
-    --font-color: #fff;
-  }
+
   
-  html, body {
-      height: 100%;
-      overflow: none;
-  }
-  
-  body {
-      background-image: url('https://vanstoneonline.com/wp-content/themes/vanstoneonline/images/background.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-origin: border-box;
-      background-size: cover;
-      background-attachment: fixed;
-      color: var(--font-color);
-     
-  
-  }
-  
-  a, a:visited { color: var(--font-color); }
-  
-  .container-fluid {
+
+  #page, .container-fluid {
       background-color: rgba(1, 2, 34, 0.6); 
       min-height: 100%;
         
@@ -71,7 +51,7 @@
   }
   
   .navbar-light .navbar-toggler-icon{
-      background-image: url('../images/vo-logo.png')!important;
+      background-image: url('../vonline/images/vo-logo.png')!important;
       background-size: contain;
       width: 40px;
   }   
