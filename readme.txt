@@ -1,6 +1,6 @@
 I.Theme
 
-vonline, Copyright 2015
+vonline, Copyright 2021
 vonline is licensed under GNU General Public License V2 or later. You can find a copy of it in the license.txt file.
 
 II. Resources
