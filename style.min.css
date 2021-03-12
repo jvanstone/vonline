@@ -1,10 +1,10 @@
 :root{--font-color:#fff}
 html{scroll-behavior:smooth;height:100%;overflow:none}
-body{background-image:url("../vonline//images/background.jpg") !important;background-repeat:no-repeat;background-position:center;background-origin:border-box;background-size:cover;background-attachment:fixed;color:var(--font-color);font-size:14px;font-family:"Source Sans Pro",sans-serif;background:#fff}
+body{background-image:url("../vonline//images/background.jpg") !important;background-repeat:no-repeat;background-position:center;background-origin:border-box;background-size:cover;background-attachment:fixed;color:var(--font-color);font-size:16px;font-family:"Source Sans Pro",sans-serif;background:#fff}
 a{text-decoration:none;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 a:hover,a:focus{color:#443f3f;text-decoration:none;outline:0;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 a,a:visited{color:var(--font-color)}
-p{margin-bottom:20px}
+p{margin-bottom:5px}
 .footer-widgets .widget ul,.widget-area .widget ul{list-style:none;padding:0}
 .widget .children{padding-left:15px}
 .img{max-width:100%;height:auto}

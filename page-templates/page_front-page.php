@@ -45,8 +45,9 @@
                                                 'theme_location' => 'landing-page', 
                                                 'menu_class' => 'navbar-nav',
                                                 'add_li_class' => 'nav-item',
-                                                'container' => false ) 
-                                                ); ?>
+                                                'container' => false 
+                                                ) 
+                                             ); ?>
 <!--                                 <button type="button" class="btn btn-orange m-1" href="#">Login</button>
  -->                            </div>
                         </nav>
@@ -117,10 +118,5 @@
                 </footer>
             </div>
         </div>
-		<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <?php get_footer(); ?>

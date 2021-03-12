@@ -23,7 +23,7 @@ body {
     background-attachment: fixed;
     color: var(--font-color);
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Source Sans Pro", sans-serif;
     background: #fff;
     //color: #767676;
@@ -46,7 +46,7 @@ a:focus {
 
 a, a:visited { color: var(--font-color); }
 p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .footer-widgets .widget ul,
 .widget-area .widget ul {
@@ -59,7 +59,7 @@ p {
 
 .img {
     max-width: 100%;
-height: auto;
+    height: auto;
 }
 .img-left {
     margin: 0 33px 0 0 !important;
