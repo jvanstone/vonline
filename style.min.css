@@ -1,4 +1,4 @@
-@import url(05-Blocks/heading.css);:root{--font-color:#fff}
+:root{--font-color:#fff}
 html{scroll-behavior:smooth;height:100%;overflow:none}
 body{background-image:url("../vonline//images/background.jpg") !important;background-repeat:no-repeat;background-position:center;background-origin:border-box;background-size:cover;background-attachment:fixed;color:var(--font-color);font-size:14px;font-family:"Source Sans Pro",sans-serif;background:#fff}
 a{text-decoration:none;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
@@ -28,6 +28,13 @@ input::input-placeholder,textarea::input-placeholder{color:#cacaca}
 textarea,input[type="text"],input[type="submit"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input,.dropdown-menu,.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus{-webkit-appearance:none;-moz-appearance:none;appearance:none;text-shadow:none;-webkit-box-shadow:none;box-shadow:none;-o-box-shadow:none;box-shadow:none}
 table{width:100%}
 th,td{border:1px solid #333;padding:5px;text-align:center}
+h1{font:52px/1.1 "Raleway",sans-serif}
+h2{font:42px/1.1 "Raleway",sans-serif}
+h3{font:32px/1.1 "Raleway",sans-serif}
+h4{font:25px/1.1 "Raleway",sans-serif}
+h5{font:20px/1.1 "Raleway",sans-serif}
+h6{font:18px/1.1 "Raleway",sans-serif}
+h1,h2,h3,h4,h5,h6{color:#443f3f;font-weight:600;margin:10px 0 24px}
 .social-menu-widget{padding:0;margin:0 auto;display:table;text-align:center}
 .widget-area .widget_fp_social a,.social-menu-widget a,.social-menu-widget a:hover{color:#d65050}
 .social-menu-widget li{display:inline-block;padding:5px 20px;list-style:none;line-height:1}
