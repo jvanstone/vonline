@@ -247,7 +247,7 @@ function vonline_enqueue_bootstrap() {
 	wp_enqueue_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',null, null, false );	
 	wp_enqueue_script( 'Popper' , 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js', array(), null, true);
 	wp_enqueue_script( 'Javascript' , 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', array(), null, true);
-	wp_enqueue_style( 'Iconify', 'https://code.iconify.design/1/1.0.6/iconify.min.js', array(), true);
+	wp_enqueue_script( 'Iconify', 'https://code.iconify.design/1/1.0.6/iconify.min.js', array(), true);
 
 }
 add_action( 'wp_enqueue_scripts', 'vonline_enqueue_bootstrap', 9 );
