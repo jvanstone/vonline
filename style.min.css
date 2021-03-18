@@ -173,7 +173,7 @@ main h1{color:white}
 .updated:not(.published){display:none}
 .single .byline{display:inline}
 .single .entry-header{margin-bottom:30px}
-.single .page-wrap .content-wrapper{padding:30px}
+.single .page-wrap .content-wrapper{padding:30px;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
 .single .meta-post .post-cat::before{content:'/';padding:0 10px}
 .single .meta-post .post-cat:first-of-type::before{content:'';padding:0}
 .single .meta-post a{text-transform:uppercase;letter-spacing:5px;font-size:13px}
@@ -181,7 +181,7 @@ main h1{color:white}
 .single .single-meta{text-transform:uppercase;font-size:13px;display:table}
 .group-blog .byline{display:inline}
 .page .entry-header{margin-bottom:30px}
-.page .page-wrap .content-wrapper{padding:30px}
+.page .page-wrap .content-wrapper{padding:30px;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
 .entry-footer{clear:left;margin-top:30px}
 .page-links{clear:both;margin:0 0 30px}
 .page-header{margin:0;border:0}
@@ -304,7 +304,7 @@ img{max-width:100%;height:auto}
 #page-slider{position:relative;height:250px}
 .overlay{position:absolute;top:0;left:0;width:100%;height:100%;filter:"alpha(opacity=70)";filter:alpha(opacity=70);opacity:.7}
 .projects-template-post_full .page-wrap{padding:0}
-.projects-template-post_full .page-wrap .content-wrapper{padding:0}
+.projects-template-post_full .page-wrap .content-wrapper{padding:0;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
 .entry-page p{margin-bottom:24px}
 .entry-post p{margin-bottom:24px}
 .entry-post img{margin:10px 0 20px}
