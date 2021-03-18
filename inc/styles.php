@@ -1,6 +1,7 @@
 <?php
-/**
- * @package vonline
+/** @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 //Converts hex colors to rgba for the menu background color

@@ -17,17 +17,17 @@ class vonline_Contact_Info extends WP_Widget {
 	?>
 
 	<p>
-	<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'vonline'); ?></label>
+	<label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_e('Title', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 	</p>
 
-	<p><label for="<?php echo $this->get_field_id( 'address' ); ?>"><?php _e( 'Enter your address', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'address' ); ?>"><?php esc_html_e( 'Enter your address', 'vonline' ); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id( 'address' ); ?>" name="<?php echo $this->get_field_name( 'address' ); ?>" type="text" value="<?php echo $address; ?>" size="3" /></p>
 
-	<p><label for="<?php echo $this->get_field_id( 'phone' ); ?>"><?php _e( 'Enter your phone number', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'phone' ); ?>"><?php esc_html_e( 'Enter your phone number', 'vonline' ); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id( 'phone' ); ?>" name="<?php echo $this->get_field_name( 'phone' ); ?>" type="text" value="<?php echo $phone; ?>" size="3" /></p>
 
-	<p><label for="<?php echo $this->get_field_id( 'email' ); ?>"><?php _e( 'Enter your email address', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'email' ); ?>"><?php esc_html_e( 'Enter your email address', 'vonline' ); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" type="text" value="<?php echo $email; ?>" size="3" /></p>	
 
 	<?php

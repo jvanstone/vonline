@@ -1,8 +1,9 @@
 <?php
 /**
  * The template used for displaying page content in page.php
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 ?>
 

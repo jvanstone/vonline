@@ -1,8 +1,9 @@
 <?php
 /**
  * The template for displaying all single posts.
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 get_header(); ?>

@@ -2,8 +2,9 @@
 /**
  * Jetpack Compatibility File
  * See: http://jetpack.me/
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 /**

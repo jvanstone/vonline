@@ -3,8 +3,9 @@
  * The template part for displaying results in search pages.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 ?>
 

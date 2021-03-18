@@ -1,8 +1,9 @@
 <?php
 /**
  * Class to handle LifterLMS integration
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 

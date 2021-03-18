@@ -1,8 +1,9 @@
 <?php
 /**
  * Theme info page
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 /**
@@ -29,7 +30,7 @@ function vonline_info_page() {
 	<div class="info-container">
 		<p class="hello-user"><?php echo sprintf( __( 'Hello, %s,', 'vonline' ), '<span>' . esc_html( ucfirst( $user->display_name ) ) . '</span>' ); ?></p>
 		<h1 class="info-title"><?php echo __( 'Welcome to vonline', 'vonline' ); ?><span class="info-version"><?php echo 'v' . esc_html( wp_get_theme()->version ); ?></span></h1>
-		<p class="welcome-desc"><?php _e( 'vonline is now installed and ready to go. To help you with the next step, we’ve gathered together on this page all the resources you might need. We hope you enjoy using vonline. You can always come back to this page by going to <strong>Appearance > vonline Info</strong>.', 'vonline' ); ?>
+		<p class="welcome-desc"><?php esc_html_e( 'vonline is now installed and ready to go. To help you with the next step, we’ve gathered together on this page all the resources you might need. We hope you enjoy using vonline. You can always come back to this page by going to <strong>Appearance > vonline Info</strong>.', 'vonline' ); ?>
 	
 
 		<div class="vonline-theme-tabs">
@@ -46,7 +47,7 @@ function vonline_info_page() {
 					
 					<div class="plugins-row">
 						<h2><span class="step-number">1</span><?php esc_html_e( 'Install recommended plugins', 'vonline' ); ?></h2>
-						<p><?php _e( 'Install one plugin at a time. Wait for each plugin to activate.', 'vonline' ); ?></p>
+						<p><?php esc_html_e( 'Install one plugin at a time. Wait for each plugin to activate.', 'vonline' ); ?></p>
 
 						<div style="margin: 0 -15px;overflow:hidden;display:flex;">
 							<div class="plugin-block">

@@ -1,8 +1,9 @@
 <?php
 /**
  * The sidebar containing the main widget area.
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

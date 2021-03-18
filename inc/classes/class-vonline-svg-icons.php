@@ -1,8 +1,9 @@
 <?php
 /**
  * SVG icons used in vonline
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 if ( ! class_exists( 'vonline_SVG_Icons' ) ) {
@@ -37,5 +38,3 @@ if ( ! class_exists( 'vonline_SVG_Icons' ) ) {
 		);
 	}
 }
-
-

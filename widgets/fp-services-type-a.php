@@ -1,8 +1,9 @@
 <?php
 /**
  * Services widget
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 class vonline_Services_Type_A extends WP_Widget {
@@ -25,22 +26,22 @@ class vonline_Services_Type_A extends WP_Widget {
 
 	?>
 
-	<p><?php _e('In order to display this widget, you must first add some services from your admin area.', 'vonline'); ?></p>
+	<p><?php esc_html_e('In order to display this widget, you must first add some services from your admin area.', 'vonline'); ?></p>
 	<p>
-	<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'vonline'); ?></label>
+	<label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_e('Title', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 	</p>
-	<p><label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e( 'Number of services to show (-1 shows all of them):', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php esc_html_e( 'Number of services to show (-1 shows all of them):', 'vonline' ); ?></label>
 	<input id="<?php echo $this->get_field_id( 'number' ); ?>" name="<?php echo $this->get_field_name( 'number' ); ?>" type="text" value="<?php echo $number; ?>" size="3" /></p>
-    <p><label for="<?php echo $this->get_field_id('see_all'); ?>"><?php _e('The URL for your button [In case you want a button below your services block]', 'vonline'); ?></label>
+    <p><label for="<?php echo $this->get_field_id('see_all'); ?>"><?php esc_html_e('The URL for your button [In case you want a button below your services block]', 'vonline'); ?></label>
 	<input class="widefat custom_media_url" id="<?php echo $this->get_field_id( 'see_all' ); ?>" name="<?php echo $this->get_field_name( 'see_all' ); ?>" type="text" value="<?php echo $see_all; ?>" size="3" /></p>	
-    <p><label for="<?php echo $this->get_field_id('see_all_text'); ?>"><?php _e('The text for the button [Defaults to <em>See all our services</em> if left empty]', 'vonline'); ?></label>
+    <p><label for="<?php echo $this->get_field_id('see_all_text'); ?>"><?php esc_html_e('The text for the button [Defaults to <em>See all our services</em> if left empty]', 'vonline'); ?></label>
 	<input class="widefat custom_media_url" id="<?php echo $this->get_field_id( 'see_all_text' ); ?>" name="<?php echo $this->get_field_name( 'see_all_text' ); ?>" type="text" value="<?php echo $see_all_text; ?>" size="3" /></p>
-	<p><label for="<?php echo $this->get_field_id( 'category' ); ?>"><?php _e( 'Enter the slug for your category or leave empty to show all services.', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'category' ); ?>"><?php esc_html_e( 'Enter the slug for your category or leave empty to show all services.', 'vonline' ); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id( 'category' ); ?>" name="<?php echo $this->get_field_name( 'category' ); ?>" type="text" value="<?php echo $category; ?>" size="3" /></p>
 	<p><input class="checkbox" type="checkbox" <?php checked( $two_cols ); ?> id="<?php echo $this->get_field_id( 'two_cols' ); ?>" name="<?php echo $this->get_field_name( 'two_cols' ); ?>" />
-	<label for="<?php echo $this->get_field_id( 'two_cols' ); ?>"><?php _e( 'Display services in two columns instead of three?', 'vonline' ); ?></label></p>
-	<p><label for="<?php echo $this->get_field_id('content_excerpt'); ?>"><?php _e('Content to display:', 'vonline'); ?></label>
+	<label for="<?php echo $this->get_field_id( 'two_cols' ); ?>"><?php esc_html_e( 'Display services in two columns instead of three?', 'vonline' ); ?></label></p>
+	<p><label for="<?php echo $this->get_field_id('content_excerpt'); ?>"><?php esc_html_e('Content to display:', 'vonline'); ?></label>
         <select name="<?php echo $this->get_field_name('content_excerpt'); ?>" id="<?php echo $this->get_field_id('content_excerpt'); ?>">		
 			<option value="fullcontent" <?php if ( 'fullcontent' == $content_excerpt ) echo 'selected="selected"'; ?>><?php echo __('Full content', 'vonline'); ?></option>
 			<option value="excerpt" <?php if ( 'excerpt' == $content_excerpt ) echo 'selected="selected"'; ?>><?php echo __('Excerpt', 'vonline'); ?></option>

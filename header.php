@@ -3,8 +3,9 @@
  * The header for our theme.
  *
  * Displays all of the <head> section and everything up till <div id="content">
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -23,7 +24,7 @@
 <?php do_action('vonline_before_site'); //Hooked: vonline_preloader() ?>
 
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'vonline' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'vonline' ); ?></a>
 
 	<?php do_action('vonline_before_header'); //Hooked: vonline_header_clone() ?>
 

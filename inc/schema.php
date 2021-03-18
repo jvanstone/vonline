@@ -1,8 +1,9 @@
 <?php
 /**
  * Schema related features
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 if ( ! function_exists( 'vonline_get_schema' ) ) {

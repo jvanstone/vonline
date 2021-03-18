@@ -4,26 +4,34 @@
   #page, .container-fluid {
       background-color: rgba(1, 2, 34, 0.6); 
       min-height: 100%;
-        
   }
   header {
       height: 120px;
   }
   
   main h1 { 
-      color: white!important;
+      color: white;
   }
   
+  .icons {
+	  margin: 8rem 0;
+	  color: var(--global--color-white);
+
+  }
   
-  footer {
+  .landing-footer {
+	  margin: 10rem 0rem;
+	  padding: 2rem;
       background: #141537;
       width: 100%;
       height: auto;
-  }
-  
-  footer img {
-      max-width: 166px;
-  }
+	  color: var(--global--color-white);
+
+	img {
+		max-width: 166px;
+	}
+
+}
   .feature > p {
       font-size: .75rem!important;
   }
@@ -88,8 +96,8 @@
           margin-bottom: 10rem!important;
       }
       .icons {
-          margin-top: 5rem;
-          margin-bottom: 5rem;
+          margin-top: 10rem;
+          margin-bottom: 10rem;
   
       }
   
@@ -103,4 +111,3 @@
           margin-top: 5rem;
       }
   }
-  

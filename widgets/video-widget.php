@@ -17,19 +17,19 @@ class vonline_Video_Widget extends WP_Widget {
 	?>
 
 	<p>
-	<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'vonline'); ?></label>
+	<label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_e('Title', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 	</p>
 
-	<p><label for="<?php echo $this->get_field_id( 'url' ); ?>"><?php _e( 'Paste the URL of the video (only from a network that supports oEmbed, like Youtube, Vimeo etc.):', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'url' ); ?>"><?php esc_html_e( 'Paste the URL of the video (only from a network that supports oEmbed, like Youtube, Vimeo etc.):', 'vonline' ); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id( 'url' ); ?>" name="<?php echo $this->get_field_name( 'url' ); ?>" type="text" value="<?php echo $url; ?>" size="3" /></p>
-	<p><label for="<?php echo $this->get_field_id('video_mode'); ?>"><?php _e('Video mode:', 'vonline'); ?></label>
+	<p><label for="<?php echo $this->get_field_id('video_mode'); ?>"><?php esc_html_e('Video mode:', 'vonline'); ?></label>
         <select name="<?php echo $this->get_field_name('video_mode'); ?>" id="<?php echo $this->get_field_id('video_mode'); ?>">		
 			<option value="vid-normal" <?php if ( 'vid-normal' == $video_mode ) echo 'selected="selected"'; ?>><?php echo __('Normal', 'vonline'); ?></option>
 			<option value="vid-lightbox" <?php if ( 'vid-lightbox' == $video_mode ) echo 'selected="selected"'; ?>><?php echo __('Lightbox', 'vonline'); ?></option>
        	</select>
     </p>  
-	<p><label for="<?php echo $this->get_field_id( 'text' ); ?>"><?php _e( 'Text before the play button (only for lightbox mode):', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'text' ); ?>"><?php esc_html_e( 'Text before the play button (only for lightbox mode):', 'vonline' ); ?></label>
 	<textarea class="widefat" rows="6" cols="20" id="<?php echo $this->get_field_id('text'); ?>" name="<?php echo $this->get_field_name('text'); ?>"><?php echo $text; ?></textarea></p>
 
 	<?php

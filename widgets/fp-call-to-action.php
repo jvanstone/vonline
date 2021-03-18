@@ -15,16 +15,16 @@ class vonline_Action extends WP_Widget {
 		$action_btn_text 	= isset( $instance['action_btn_text'] ) ? esc_html( $instance['action_btn_text'] ) : '';
 		$inline 			= isset( $instance['inline'] ) ? (bool) $instance['inline'] : false;
 	?>
-	<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'vonline'); ?></label>
+	<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_e('Title', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" /></p>
-	<p><label for="<?php echo $this->get_field_id('action_text'); ?>"><?php _e('Enter your call to action.', 'vonline'); ?></label>
+	<p><label for="<?php echo $this->get_field_id('action_text'); ?>"><?php esc_html_e('Enter your call to action.', 'vonline'); ?></label>
 	<textarea class="widefat" id="<?php echo $this->get_field_id('action_text'); ?>" name="<?php echo $this->get_field_name('action_text'); ?>"><?php echo $action_text; ?></textarea></p>
-	<p><label for="<?php echo $this->get_field_id('action_btn_link'); ?>"><?php _e('Link for the button', 'vonline'); ?></label>
+	<p><label for="<?php echo $this->get_field_id('action_btn_link'); ?>"><?php esc_html_e('Link for the button', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('action_btn_link'); ?>" name="<?php echo $this->get_field_name('action_btn_link'); ?>" type="text" value="<?php echo $action_btn_link; ?>" /></p>
-	<p><label for="<?php echo $this->get_field_id('action_btn_text'); ?>"><?php _e('Title for the button', 'vonline'); ?></label>
+	<p><label for="<?php echo $this->get_field_id('action_btn_text'); ?>"><?php esc_html_e('Title for the button', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('action_btn_text'); ?>" name="<?php echo $this->get_field_name('action_btn_text'); ?>" type="text" value="<?php echo $action_btn_text; ?>" /></p>
 	<p><input class="checkbox" type="checkbox" <?php checked( $inline ); ?> id="<?php echo $this->get_field_id( 'inline' ); ?>" name="<?php echo $this->get_field_name( 'inline' ); ?>" />
-	<label for="<?php echo $this->get_field_id( 'inline' ); ?>"><?php _e( 'Display the button inline with the text?', 'vonline' ); ?></label></p>
+	<label for="<?php echo $this->get_field_id( 'inline' ); ?>"><?php esc_html_e( 'Display the button inline with the text?', 'vonline' ); ?></label></p>
 	<?php
 	}
 

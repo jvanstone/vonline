@@ -27,7 +27,7 @@ Say you have the following markup as your admin notice,
 function sample_admin_notice__success() {
 	?>
 	<div class="updated notice notice-success is-dismissible">
-    	<p><?php _e( 'Done!', 'sample-text-domain' ); ?></p>
+    	<p><?php esc_html_e( 'Done!', 'sample-text-domain' ); ?></p>
 	</div>
 	<?php
 }
@@ -45,7 +45,7 @@ function sample_admin_notice__success() {
 	
 	?>
 	<div data-dismissible="disable-done-notice-forever" class="updated notice notice-success is-dismissible">
-		<p><?php _e( 'Done!', 'sample-text-domain' ); ?></p>
+		<p><?php esc_html_e( 'Done!', 'sample-text-domain' ); ?></p>
 	</div>
 	<?php
 }
@@ -82,7 +82,7 @@ function sample_admin_notice__success1() {
 
 	?>
 	<div data-dismissible="notice-one-forever" class="updated notice notice-success is-dismissible">
-		<p><?php _e( 'Done 1!', 'sample-text-domain' ); ?></p>
+		<p><?php esc_html_e( 'Done 1!', 'sample-text-domain' ); ?></p>
 	</div>
 	<?php
 }
@@ -94,7 +94,7 @@ function sample_admin_notice__success2() {
 
 	?>
 	<div data-dismissible="notice-two-2" class="updated notice notice-success is-dismissible">
-		<p><?php _e( 'Done 2!', 'sample-text-domain' ); ?></p>
+		<p><?php esc_html_e( 'Done 2!', 'sample-text-domain' ); ?></p>
 	</div>
 	<?php
 }

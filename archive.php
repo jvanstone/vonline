@@ -3,8 +3,9 @@
  * The template for displaying archive pages.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 get_header(); 

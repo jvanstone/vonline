@@ -16,14 +16,14 @@ class vonline_Latest_News extends WP_Widget {
 	?>
 
 	<p>
-	<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'vonline'); ?></label>
+	<label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_e('Title', 'vonline'); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 	</p>
 
-	<p><label for="<?php echo $this->get_field_id( 'category' ); ?>"><?php _e( 'Enter the slug for your category or leave empty to show posts from all categories.', 'vonline' ); ?></label>
+	<p><label for="<?php echo $this->get_field_id( 'category' ); ?>"><?php esc_html_e( 'Enter the slug for your category or leave empty to show posts from all categories.', 'vonline' ); ?></label>
 	<input class="widefat" id="<?php echo $this->get_field_id( 'category' ); ?>" name="<?php echo $this->get_field_name( 'category' ); ?>" type="text" value="<?php echo $category; ?>" size="3" /></p>	
 
-    <p><label for="<?php echo $this->get_field_id('see_all_text'); ?>"><?php _e('Add the text for the button here if you want to change the default <em>See all our news</em>', 'vonline'); ?></label>
+    <p><label for="<?php echo $this->get_field_id('see_all_text'); ?>"><?php esc_html_e('Add the text for the button here if you want to change the default <em>See all our news</em>', 'vonline'); ?></label>
 	<input class="widefat custom_media_url" id="<?php echo $this->get_field_id( 'see_all_text' ); ?>" name="<?php echo $this->get_field_name( 'see_all_text' ); ?>" type="text" value="<?php echo $see_all_text; ?>" size="3" /></p>		
 
 	<?php

@@ -1,8 +1,9 @@
 <?php
 /**
  * Google fonts related functionality
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 function vonline_get_google_fonts() {

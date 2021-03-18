@@ -1,8 +1,9 @@
 <?php
 /**
  * Theme activation.
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 /**

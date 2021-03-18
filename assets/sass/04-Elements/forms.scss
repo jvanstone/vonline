@@ -1,0 +1,153 @@
+button,
+.llms-button-action,
+.llms-student-dashboard .llms-button-secondary,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    position: relative;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 12px 34px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+       -moz-border-radius: 3px;
+         -o-border-radius: 3px;
+            border-radius: 3px;
+    transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+button:hover,
+.llms-button-action:hover,
+.llms-student-dashboard .llms-button-secondary:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: transparent;
+}
+.select2-container--default .select2-selection--single,
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+    color: #767676;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    height: 50px;
+    padding: 4px 20px;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+    box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+}
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px 20px;
+}
+input[type="checkbox"] {
+    display: inline;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder,
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #a3a2a2;
+}
+input:input-placeholder,
+textarea:input-placeholder {
+  color: #c3c3c3;
+}
+input::input-placeholder,
+textarea::input-placeholder {
+  color: #cacaca;
+}
+.orches-animation {
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.orches-animation.animated {
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+@keyframes pop-scale { 0% { transform: scale(0.7) } 100% { transform: scale(1) } }
+@-moz-keyframes pop-scale { 0% { -moz-transform: scale(0.7) } 100% { -moz-transform: scale(1) } }
+@keyframes pop-scale { 0% { transform: scale(0.7) } 100% { transform: scale(1) } }
+@keyframes pop-scale2 { 0% { transform: scale(0.5) } 100% { transform: scale(1) } }
+@-moz-keyframes pop-scale2 { 0% { -moz-transform: scale(0.5) } 100% { -moz-transform: scale(1) } }
+@keyframes pop-scale2 { 0% { transform: scale(0.5) } 100% { transform: scale(1) } }
+/* bootstrap resetting elements */
+.btn {
+    background-image: none;
+}
+
+
+textarea,
+input[type="text"],
+input[type="submit"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
+.dropdown-menu,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    appearance: none;
+    text-shadow: none;
+    box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}

@@ -1,8 +1,9 @@
 <?php
 /**
  * Portfolio widget
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 
@@ -149,18 +150,18 @@ class vonline_Portfolio extends WP_Widget {
 
 	?>
 
-   <p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'vonline'); ?></label>
+   <p><label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_e('Title:', 'vonline'); ?></label>
    <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" /></p>
-   <p><label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e( 'Number of projects to show (-1 shows all of them):', 'vonline' ); ?></label>
+   <p><label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php esc_html_e( 'Number of projects to show (-1 shows all of them):', 'vonline' ); ?></label>
    <input id="<?php echo $this->get_field_id( 'number' ); ?>" name="<?php echo $this->get_field_name( 'number' ); ?>" type="text" value="<?php echo $number; ?>" size="3" /></p>
-   <p><label for="<?php echo $this->get_field_id('includes'); ?>"><?php _e('Enter the slugs (comma separated) for your categories or leave empty to show all projects.', 'vonline'); ?></label>
+   <p><label for="<?php echo $this->get_field_id('includes'); ?>"><?php esc_html_e('Enter the slugs (comma separated) for your categories or leave empty to show all projects.', 'vonline'); ?></label>
    <input class="widefat" id="<?php echo $this->get_field_id('includes'); ?>" name="<?php echo $this->get_field_name('includes'); ?>" type="text" value="<?php echo $includes; ?>" /></p>
 	 <p><input class="checkbox" type="checkbox" <?php checked( $show_filter ); ?> id="<?php echo $this->get_field_id( 'show_filter' ); ?>" name="<?php echo $this->get_field_name( 'show_filter' ); ?>" />
-   <label for="<?php echo $this->get_field_id( 'show_filter' ); ?>"><?php _e( 'Show navigation filter? (Category slugs must be specified).', 'vonline' ); ?></label></p>
-	 <p><label for="<?php echo $this->get_field_id('show_all_text'); ?>"><?php _e('"Show all" text:', 'vonline'); ?></label>
+   <label for="<?php echo $this->get_field_id( 'show_filter' ); ?>"><?php esc_html_e( 'Show navigation filter? (Category slugs must be specified).', 'vonline' ); ?></label></p>
+	 <p><label for="<?php echo $this->get_field_id('show_all_text'); ?>"><?php esc_html_e('"Show all" text:', 'vonline'); ?></label>
    <input class="widefat" id="<?php echo $this->get_field_id('show_all_text'); ?>" name="<?php echo $this->get_field_name('show_all_text'); ?>" type="text" value="<?php echo esc_attr($show_all_text); ?>" /></p>
 	 <p><input class="checkbox" type="checkbox" <?php checked( $show_project_title ); ?> id="<?php echo $this->get_field_id( 'show_project_title' ); ?>" name="<?php echo $this->get_field_name( 'show_project_title' ); ?>" />
-   <label for="<?php echo $this->get_field_id( 'show_project_title' ); ?>"><?php _e( 'Show project title?', 'vonline' ); ?></label></p>
+   <label for="<?php echo $this->get_field_id( 'show_project_title' ); ?>"><?php esc_html_e( 'Show project title?', 'vonline' ); ?></label></p>
 
    <?php
 

@@ -1,8 +1,9 @@
 <?php
 /**
  * List widget
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 class vonline_List extends WP_Widget {
@@ -60,19 +61,19 @@ class vonline_List extends WP_Widget {
 		$text 		= esc_textarea($instance['text']);
 		$list 		= esc_textarea($instance['list']);
 ?>
-		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'vonline'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php esc_html_ec_html_e('Title:', 'vonline'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" /></p>
 
-		<p><label for="<?php echo $this->get_field_id('text'); ?>"><?php _e('Add a bit of text here. It will be displayed.', 'vonline'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('text'); ?>"><?php esc_html_ec_html_e('Add a bit of text here. It will be displayed.', 'vonline'); ?></label>
 		<textarea class="widefat" rows="8" cols="20" id="<?php echo $this->get_field_id('text'); ?>" name="<?php echo $this->get_field_name('text'); ?>"><?php echo $text; ?></textarea></p>
 
-		<p><label for="<?php echo $this->get_field_id('list'); ?>"><?php _e('Add your list items here. One item per row, start each row with <strong>^</strong>. Example: <strong>^ list item </strong>', 'vonline'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('list'); ?>"><?php esc_html_ec_html_e('Add your list items here. One item per row, start each row with <strong>^</strong>. Example: <strong>^ list item </strong>', 'vonline'); ?></label>
 		<textarea class="widefat" rows="8" cols="20" id="<?php echo $this->get_field_id('list'); ?>" name="<?php echo $this->get_field_name('list'); ?>"><?php echo $list; ?></textarea></p>
 
-		<p><label for="<?php echo $this->get_field_id('button_url'); ?>"><?php _e('Call to action button URL:', 'vonline'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('button_url'); ?>"><?php esc_html_ec_html_e('Call to action button URL:', 'vonline'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('button_url'); ?>" name="<?php echo $this->get_field_name('button_url'); ?>" type="text" value="<?php echo esc_attr($button_url); ?>" /></p>
 
-		<p><label for="<?php echo $this->get_field_id('button_text'); ?>"><?php _e('Call to action button text:', 'vonline'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('button_text'); ?>"><?php esc_html_ec_html_e('Call to action button text:', 'vonline'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('button_text'); ?>" name="<?php echo $this->get_field_name('button_text'); ?>" type="text" value="<?php echo esc_attr($button_text); ?>" /></p>
 
 <?php

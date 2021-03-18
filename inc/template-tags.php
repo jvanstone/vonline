@@ -3,8 +3,9 @@
  * Custom template tags for this theme.
  *
  * Eventually, some of the functionality here could be replaced by core features.
- *
- * @package vonline
+ * @package    Vanstone_Online
+ * @subpackage vonline
+ * @since      1.0.0
  */
 
 if ( ! function_exists( 'the_posts_navigation' ) ) :
@@ -20,7 +21,7 @@ function the_posts_navigation() {
 	}
 	?>
 	<nav class="navigation posts-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php _e( 'Posts navigation', 'vonline' ); ?></h2>
+		<h2 class="screen-reader-text"><?php esc_html_e( 'Posts navigation', 'vonline' ); ?></h2>
 		<div class="nav-links clearfix">
 
 			<?php if ( get_next_posts_link() ) : ?>
@@ -53,7 +54,7 @@ function vonline_post_navigation() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php _e( 'Post navigation', 'vonline' ); ?></h2>
+		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'vonline' ); ?></h2>
 		<div class="nav-links clearfix">
 			<?php
 				previous_post_link( '<div class="nav-previous"><span>&#10229;</span>%link</div>', '%title' );
