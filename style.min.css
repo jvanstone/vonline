@@ -899,7 +899,7 @@ h6{font-size:14px}
 }@media screen and (max-width:600px){.top6{margin:5px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:column nowrap;flex-wrap:column nowrap;font-size:1em}
 .topItem{margin:5px auto;width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-item-align:center;align-self:center}
 .top6 img{display:none}
-button{margin:auto}
+.top6-button{margin:auto}
 }@media only screen and (max-width:600px){.roll-client .client-item{padding:5px;margin:0;width:32.5%}
 }@media only screen and (max-width:479px){.roll-project.fullwidth .project-item{width:100%}
 .blog-post{padding:0}
