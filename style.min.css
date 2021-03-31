@@ -801,7 +801,7 @@ div[class*="elementor-widget-wp-widget-vonline"] h5{text-align:center;margin-bot
 .sub-menu.toggled{display:block !important}
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){.parallax{background-size:cover;background-attachment:scroll;background-position:top center !important}
 }@media(min-width:576px){.container-xxl{height:100%}
-header{height:180px}
+header.landing-header{height:180px}
 #homeMenu{margin-right:4rem;background-color:transparent;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .icons{margin-top:10rem;margin-bottom:10rem}
 .icon{width:200px;height:auto}
