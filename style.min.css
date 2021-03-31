@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6{color:#443f3f;font-weight:600;margin:10px 0 24px}
 .social-menu-widget a[href*="xing.com"]::before{content:'\f168'}
 .social-menu-widget a[href*="trello.com"]::before{content:'\f181'}
 #page,.container-fluid{background-color:rgba(1,2,34,0.6);min-height:100%}
-header{height:120px}
+header.landing-header{height:120px}
 main.landing-page h1{color:white !important}
 .icons{margin:8rem 0;color:var(--global--color-white)}
 .landing-footer{margin:10rem 0;padding:2rem;background:#141537;width:100%;height:auto;color:var(--global--color-white)}

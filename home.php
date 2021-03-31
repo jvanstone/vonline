@@ -29,7 +29,7 @@
 <?php do_action('vonline_before_site'); //Hooked: vonline_preloader() ?>
 <div class="container-fluid mb-10">
 			<div class="container-xxl offset-1">
-				<header class="">
+				<header class="landing-header">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<nav class="navbar navbar-expand-lg navbar-light " role="navigation"> 
 							<div class="navbar-header">
