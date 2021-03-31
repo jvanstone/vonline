@@ -104,12 +104,12 @@
 						<div class="collapse" id="collapseExample">
 							<div class="card card-body text-white bg-dark mb-3">
 								<div class="row justify-content-around">
-									<a href="#"><span class="iconify" data-inline="false" data-icon="ic:baseline-alternate-email" style="font-size: 24px;"></span></a>
-									<a href="#"><span class="iconify" data-inline="false" data-icon="jam:twitter-circle" style="font-size: 24px;"></span> </a>
-									<a href="#"><span class="iconify" data-inline="false" data-icon="akar-icons:instagram-fill" style="font-size: 24px;"></span></a>
-									<a href="#"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="font-size: 24px;"></span></a>
-									<a href="#"><span class="iconify" data-inline="false" data-icon="jam:facebook-circle" style="font-size: 24px;"></span></a>
-									<a href="#"><span class="iconify" data-inline="false" data-icon="typcn:social-linkedin-circular" style="font-size: 26px;"></span></a>
+									<a href="jason@vanstoneonline.com"><span class="iconify" data-inline="false" data-icon="ic:baseline-alternate-email" style="font-size: 24px;"></span></a>
+									<a href="https://twitter.com/VanstoneOnline"><span class="iconify" data-inline="false" data-icon="jam:twitter-circle" style="font-size: 24px;"></span> </a>
+									<a href="https://www.instagram.com/VanstoneOnline/"><span class="iconify" data-inline="false" data-icon="akar-icons:instagram-fill" style="font-size: 24px;"></span></a>
+									<a href="https://github.com/jvanstone"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="font-size: 24px;"></span></a>
+									<a href="https://www.facebook.com/VanstoneOnline/"><span class="iconify" data-inline="false" data-icon="jam:facebook-circle" style="font-size: 24px;"></span></a>
+									<a href="https://www.linkedin.com/in/jason-vanstone-ca/"><span class="iconify" data-inline="false" data-icon="typcn:social-linkedin-circular" style="font-size: 26px;"></span></a>
 								</div>
 							</div>
 						</div>
