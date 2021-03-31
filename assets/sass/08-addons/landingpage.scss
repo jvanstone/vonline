@@ -6,9 +6,12 @@
       height: 120px;
   }
   
-  main h1 { 
-      color: white;
-  }
+  main.landing-page { 
+ 	h1  { 
+      color: white !important;
+  	}
+
+}
   
   .icons {
 	  margin: 8rem 0;

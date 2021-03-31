@@ -52,7 +52,7 @@
 						</nav>
 					</div>
 				</header>
-				<main>
+				<main class="landing-page">
 					<h1 class="display-5">WordPress Development <br>& Web Design</h1>
 					<div class="row icons">
 						<div class="col-md-3 m-3 icon">
