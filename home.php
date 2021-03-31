@@ -104,7 +104,7 @@
 						<div class="collapse" id="collapseExample">
 							<div class="card card-body text-white bg-dark mb-3">
 								<div class="row justify-content-around">
-									<a href="jason@vanstoneonline.com"><span class="iconify" data-inline="false" data-icon="ic:baseline-alternate-email" style="font-size: 24px;"></span></a>
+									<a href="https://vanstoneonline.com/contact-us/"><span class="iconify" data-inline="false" data-icon="ic:baseline-alternate-email" style="font-size: 24px;"></span></a>
 									<a href="https://twitter.com/VanstoneOnline"><span class="iconify" data-inline="false" data-icon="jam:twitter-circle" style="font-size: 24px;"></span> </a>
 									<a href="https://www.instagram.com/VanstoneOnline/"><span class="iconify" data-inline="false" data-icon="akar-icons:instagram-fill" style="font-size: 24px;"></span></a>
 									<a href="https://github.com/jvanstone"><span class="iconify" data-inline="false" data-icon="ant-design:github-filled" style="font-size: 24px;"></span></a>
