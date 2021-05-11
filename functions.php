@@ -562,3 +562,8 @@ require get_template_directory() . '/theme-dashboard/class-theme-dashboard.php';
  * Theme dashboard settings.
  */
 require get_template_directory() . '/inc/theme-dashboard-settings.php';
+
+/**
+ * Add custom blocks for gutenberg
+ */
+require get_template_directory() . '/blocks/blocks.php';
